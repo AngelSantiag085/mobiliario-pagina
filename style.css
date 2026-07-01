@@ -55,13 +55,22 @@ body {
 }
 .swiper{
     width: 100%;
-    height: 350px;
+    height: 250px;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .swiper img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
+}
+@media (min-width: 768px) {
+    .swiper{
+        height: 350px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -96,10 +105,16 @@ body {
     border-radius: 15px;
 }
 .contacto {
-    padding: 60px;
+    padding: 60px 20px;
     background-color: #CFB53B;
     color: white;
     text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
 }
 .contacto svg{
     color: green;

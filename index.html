@@ -12,22 +12,22 @@
   </head>
   <body>
 
-       <div class="logo-container">
+       <div id="Inicio" class="logo-container">
         <img class="logo-img" src="img/logo.jpeg" />
       </div>
     <header>
       <div class="nav-bg">
       <nav class="nav-menu contenedor">
-        <a href="#">Inicio</a>
-        <a href="#">Servicios</a>
-        <a href="#">Galeria</a>
-        <a href="#">Contacto</a>
+        <a href="#Inicio">Inicio</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Galeria">Galeria</a>
+        <a href="#contactos">Contacto</a>
       </nav>
       </div>
     </header>
 
     
-    <section class="hero">
+    <section id="Servivios" class="hero">
       <h2>Conoce nuestro servicios</h2>
       <p>
         Venta y renta con nosotros letras, Números,<br />
@@ -35,104 +35,75 @@
       </p>
     </section>
 
-    <div class="servicios">
-    <section class="slider">
-      <section class="card-servicio">
-      <h3>Letras</h3>
-      <div class="swiper letrasSwiper">
-        <div class="swiper-wrapper">
+    <div id="Galería" class="servicio">
+  <section class="card-servicio">
+    <h3>Letras</h3>
+    <div class="swiper letrasSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/gigantes.jpeg" class="active"></div>
+        <div class="swiper-slide"><img src="img/baby.jpeg"></div>
+        <div class="swiper-slide"><img src="img/steam.jpeg" alt="letras" /></div>
+        <div class="swiper-slide"><img src="img/xv-ale.jpeg"></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <p>
+      Tenemos variedad de letras para<br />
+      todo tipo de evento y contamos con<br />
+      la elaboración de las letras de tu agrado
+    </p>
+  </section>
 
-          <div class="swiper-slide">
-            <img src="img/gigantes.jpeg" class="active">
-          </div>
+  <section class="card-servicio">
+    <h3>Números</h3>
+    <div class="swiper numerosSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/numero-70.jpeg" /></div>
+        <div class="swiper-slide"><img src="img/numero-3.jpeg" /></div>
+        <div class="swiper-slide"><img src="img/numero-18.jpeg" alt="número 18" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <p>
+      De igual forma tenemos la opción<br />
+      de números para cumpleaños o aniversarios
+    </p>
+  </section>
 
-          <div class="swiper-slide">
-            <img src="img/baby.jpeg" >
-          </div>
+  <section class="card-servicio"> 
+    <h3>Mamparas</h3>
+    <div class="swiper mamparasSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/mampara.jpeg" /></div>
+        <div class="swiper-slide"><img src="img/mampara-2.jpeg" /></div>
+        <div class="swiper-slide"><img src="img/mampara-3.jpeg" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <p>
+      Puedes rentar o mandar a realizar el trabajo<br />
+      de mamparas u otro mobiliario que necesite<br />
+      para su evento
+    </p>
+  </section>
 
-          <div class="swiper-slide">
-            <img src="img/steam.jpeg" alt="letras" />
-          </div>
-
-          <div class="swiper-slide">
-            <img src="img/xv-ale.jpeg" >
-          </div>
-
+  <section class="card-servicio">
+    <h3>Barras</h3>
+    <div class="swiper barrasSwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/barras.jpeg" />
         </div>
-        <div class="swiper-pagination"></div>
-
       </div>
-      
-      <p>
-        Tenemos variedad de letras para<br />
-        todo tipo de evento y contamos con<br />
-        la elaboración de las letras de tu agrado
-      </p>
-    </section>
-</section>
-
-      <section class="card-servicio">
-      <h3>Números</h3>
-      <div class="swiper numerosSwiper">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-            <img src="img/numero-70.jpeg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/numero-3.jpeg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/numero-18.jpeg" alt="número 18" />
-          </div>
-            
-        </div>
-        <div class="swiper-pagination"></div>
-
-      </div>
-      <p>
-        De igual forma tenemos la opción<br />
-        de números para cumpleaños o aniversarios
-      </p>
-    </section>
-    <section class="card-servicio">   
-      <h3>Mamparas</h3>
-      <div class="swiper mamparasSwiper">
-        <div class="swiper-wrapper">
-
-          <div class="swiper-slide">
-             <img src="img/mampara.jpeg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/mampara-2.jpeg" />
-          </div>
-          <div class="swiper-slide">
-             <img src="img/mampara-3.jpeg" />
-          </div>
-
-        </div>
-        <div class="swiper-pagination"></div>
-
-      </div>
-      <p>
-        Puedes rentar o mandar a realizar el trabajo<br />
-        de mamparas u otro mobiliario que necesite<br />
-        para su evento
-      </p>
-      </section>
-      <section class="card-servicio">
-      <h3>Barras</h3>
-      <div class="swiper-slide">
-        <img src="img/barras.jpeg" />
-      </div>
-      
-      <p>
-        Contamos con el servicio de renta<br />
-        de barra de snacks
-      </p>
-    </section>
-  </div>
-    <section class="contacto">
+      <div class="swiper-pagination"></div>
+    </div>
+    <p>
+      Contamos con el servicio de renta<br />
+      de barra de snacks
+    </p>
+  </section>
+</div>
+    <section id="contactos" class="contacto">
       <h3>Contacto</h3>
       <svg
         xmlns="http://www.w3.org/2000/svg"
